@@ -1,0 +1,33 @@
+version: 0.0.1
+type: plugin
+author: itou_ng
+name: dify-plugin-langfuse
+label:
+  en_US: dify-plugin-langfuse
+  ja_JP: dify-plugin-langfuse
+  zh_Hans: dify-plugin-langfuse
+  pt_BR: dify-plugin-langfuse
+description:
+  en_US: the dify plugin for integrating langfuse.
+  ja_JP: the dify plugin for integrating langfuse.
+  zh_Hans: the dify plugin for integrating langfuse.
+  pt_BR: the dify plugin for integrating langfuse.
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission: {}
+plugins:
+  endpoints:
+    - group/dify-plugin-langfuse.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+created_at: 2025-03-21T01:19:30.648105+08:00
+privacy: PRIVACY.md
+verified: false
